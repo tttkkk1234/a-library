@@ -5,20 +5,7 @@ body {
     background-color: #f5f5f5;
 }
 header {
-    background-color: green;
-    color: white;
-    padding: 1rem;
-    text-align: center;
-}
-#time {
-    border: 0.5cm;
-    position: fixed;
-    right: 0px;
-    top: 0px;
-}
 
-footer {
-    background-color: green;
     color: white;
     padding: 1rem;
     text-align: center;
@@ -42,7 +29,5 @@ footer {
     margin-bottom: 1rem;
     background-color: white;
     cursor: pointer;
-}
-.book:hover {
-    background-color: #f5f5f5;
+
 }

@@ -9,6 +9,7 @@ const API_KEY = "AIzaSyC4PbgbO3-zwo9lfhIuYEAkeyAknUfy0ck";
             if (userMessage) {
                 displayMessage(userMessage, "user");
 
+
                 const botResponse = await fetchGeminiResponse(userMessage);
 
                 setTimeout(() => {
@@ -25,8 +26,7 @@ const API_KEY = "AIzaSyC4PbgbO3-zwo9lfhIuYEAkeyAknUfy0ck";
             messageDiv.textContent = message;
             messagesDiv.appendChild(messageDiv);
 
-            messagesDiv.scrollTop = messagesDiv.scrollHeight;
-        }
+
 
         async function fetchGeminiResponse(userMessage) {
             try {
